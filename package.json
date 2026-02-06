@@ -1,0 +1,27 @@
+{
+  "name": "cybership-carrier-service",
+  "version": "1.0.0",
+  "description": "Shipping carrier integration service for rate shopping, label purchase, and tracking",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "demo": "tsx src/demo.ts"
+  },
+  "keywords": ["shipping", "carrier", "ups", "rates"],
+  "author": "Harsh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.1",
+    "nock": "^14.0.10",
+    "tsx": "^4.21.0",
+    "vitest": "^4.0.18"
+  }
+}
